@@ -64,6 +64,14 @@ body {
     margin: 0 auto;
 }
 
+.hero-container, .header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
 .aboutme-container {
     background: #29326a;
     display: flex;
@@ -179,7 +187,7 @@ a:hover, a:active {
 }
 .hero-content .btn:hover, .hero-content .btn:active {
     background: #333333;
-    color: #F1F1F1;
+    color: #74b44a;
     border: 2px solid #666666;
 }
 
